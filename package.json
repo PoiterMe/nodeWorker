@@ -1,0 +1,29 @@
+{
+  "name": "nodeworker",
+  "version": "1.0.0",
+  "description": "run task sync/async with predefined arguments on command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test -test t1=1 t2=2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoiterMe/nodeWorker.git"
+  },
+  "keywords": [
+    "node",
+    "sequel",
+    "async",
+    "flags"
+  ],
+  "author": "Peter Meier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoiterMe/nodeWorker/issues"
+  },
+  "homepage": "https://github.com/PoiterMe/nodeWorker#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "fast-glob": "^3.2.2"
+  }
+}
